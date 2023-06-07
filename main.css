@@ -1,0 +1,35 @@
+form input{
+    display: flex;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 20%;
+    border: 2px solid #2a728e;
+}
+button {
+    padding: 8px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2a728e;
+}
+
+.salvar {
+    background-color: #304878;
+    color: #fff;
+}
+
+.valido {
+    background-color: rgb(27, 119, 88);
+    padding: 14px;
+    color: #fff;
+    display: none;
+}
+
+.invalido {
+    background-color: rgb(160, 22, 22);
+    padding: 14px;
+    color: #fff;
+    display: none;
+}
